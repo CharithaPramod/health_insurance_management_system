@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1">
+    -->
+    <title>Contact_Us</title>
+    <link href="../css/contact_us_style.css" type="text/css" rel="stylesheet">
+    <link href="../css/header_footer_style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/form_validation.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="../images/logo.png " class="logo" alt="logo">
+        </a>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../../IT20243876/php/read.php">Profile</a></li>
+                <li><a href="../php/plan.php">Plans</a></li>
+                <li><a href="../../IT20225438/src/html/News.html">News</a></li>
+                <li><a href="../../IT20208844/html/index.html">Payments</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="../../IT20225438/src/html/About Us.html">About Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1> Contact us for your support</h1>
+        <div class="form-container">
+            <div id="error-msg">
+
+            </div>
+            <form onsubmit="return validation()" action="../php/contact_us.php" method="POST">
+                <label class="labels" for="name">Full Name : </label><br>
+                <input type="text" id="name" name="name" placeholder="Full Name...">
+                <br><br>
+                <label class="labels" for="email">Email Address : </label><br>
+                <input type="email" id="email" name="email" placeholder="Email : abc@xxx.com">
+                <br><br>
+                <label class="labels" for="tele">Contact Number : </label><br>
+                <input type="tel" id="tele" name="tele" placeholder="94xxxxxxxxx">
+                <br><br>
+                <label class="labels" for="nic">NIC Number : </label><br>
+                <input type="text" id="nic" name="nic" placeholder="NIC Number">
+                <br><br>
+                <label class="labels" for="msg">Message : </label><br>
+                <textarea id="msg" name="msg" rows="8" cols="54">
+                    </textarea>
+                <br><br>
+                <input type="submit" id="submit" name="submit">
+
+            </form>
+            
+        </div>
+    </main>
+
+    <footer class="row">
+        <div class="column">
+            <h3> Quick Links </h3>
+            <ul>
+                <li><a href="index.html">Go to home page</a></li>
+                <li><a href="../php/plan.php">Life Insurance </a></li>
+                <li><a href="../../IT20225438/src/html/About Us.html">Who we are</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3> About Us </h3>
+            <ul>
+                <li> <a href="../../IT20225438/src/html/About Us.html">Who we are </a></li>
+                <li> <a href="">Our management</a></li>
+                <li> <a href="">Awards and history</a></li>
+            </ul>
+        </div>
+        <div class="column" style="width: 40%">
+            <h3> Find us on </h3>
+            <ul type="none">
+                <li> <a href="https://www.map.google.com"><i class="fa fa-map"></i> &nbsp;&nbsp;Colombo 11</a> </li>
+                <li> <a href="https://www.facebook.com"> <i class="fa fa-facebook"></i> &nbsp;&nbsp; facebook </a> </li>
+                <li> <a href="https://www.google.com"><i class="fa fa-google"></i> &nbsp;&nbsp; Google </a> </li>
+                <li> <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i> &nbsp;&nbsp; Linkedin </li>
+                <li> <a href="https://www.skype.com"><i class="fa fa-skype"></i> &nbsp;&nbsp; Skype </li>
+            </ul>
+        </div>
+        <h4 class="cpr">Health Life Insurance PVT Ltd. &nbsp;&nbsp; All Copyrights are reserved.</h4>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+.display_box_1, .display_box_2, .display_box_3, .display_box_4 {
+    width: 1250px;
+    height: 580px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    left: 50px;
+    right: 50px;
+    color: white;
+    background-color: slateblue;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 95%;
+}
+
+.close {
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px 0px;
+    margin: 5px 5px 5px 1180px;
+    border-radius: 0px;
+}
+.close:hover {
+    color: red;
+}
+
+h2 {
+    right: 20px;
+    font-size: 40px;
+    
+}
+
+.doc_type {
+    color: white;
+    top: 5px;
+}
+.doc_channeling .method {
+    margin: 0px;
+    width: 530px;
+    padding: 0px 5px 0px 5px;
+    float: inherit;
+}
+
+h1 {
+    font-size: 50px;
+}
+.channeling_content {
+    position: absolute;
+    top: 250px;
+    left: 720px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+
+td {
+    margin: 10px;
+    padding:15px;
+}
+
+.amb_hot_line, .doc_hot_line {
+    padding: 80px 0px 20px 460px;
+}
+.amb_hot_line_num, .doc_hot_line_num {
+    padding-bottom: 10px;
+}
+
+.checkup_content {
+    position: absolute;
+    top: 250px;
+    left: 720px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: tomato;
+}

@@ -1,0 +1,99 @@
+body{
+	background-image:url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Arial;
+}
+
+.login{
+	border-radius: 20px;
+	background-color: rgba(31,31,122,0.6);
+	position: relative;
+	height:400px;
+	width: 600px;
+	margin: 8% auto; 
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);	
+	
+}
+
+h2{
+	font-family:Arial;
+	color:#DCDCDC;
+	padding: 20px;
+	text-align: center;
+}
+
+.Left-box{
+	position: absolute;
+	margin: 0% 5%;
+	padding: 25px;
+	width: 180px;
+	height: 200px;
+	float: left;
+	background-color:#141452;
+	color: white;
+	
+}
+
+#submit{
+	border-radius: 15px;
+	background-color:#5c5cd6;
+	color: white;
+	cursor: pointer;
+	border: none;
+	margin: 0px 50px;
+	padding: 10px;
+	width: 80px;
+	font-size: 15px;
+}
+
+#submit:hover {
+	background-color:#9999E6;
+}
+
+.Right-box{
+	position: absolute;
+	float: left;
+	margin: 0% 50%;
+	padding: 25px;
+	width: 180px;
+	height: 200px;
+	background-color:#141452;
+	color: white;
+	text-align: center;
+}
+
+.fa{
+	border-radius: 20px;
+  padding: 12px;
+  font-size: 15px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook{
+	background-color: #3B5998;
+	color: white;
+}
+
+.fa-google{
+	background-color: #DD4B39;
+	color: white;
+}
+
+#signin{
+	color:#DCDCDC;
+	text-align:center;
+	text-decoration: none;
+}
+#signin:hover{
+	opacity: 0.8;
+}

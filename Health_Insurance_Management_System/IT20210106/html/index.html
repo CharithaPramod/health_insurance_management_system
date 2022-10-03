@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        .img-slides {
+            display: none;
+        }
+    </style>
+    <title>Healthy Life</title>
+    <script src="../js/display_box.js"></script>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/header_footer_style.css" type="text/css" rel="stylesheet">
+    <link href="../css/display_box.css" type="text/css" rel="stylesheet">
+    <!--<script src="../js/img_slider.js" type="text/javascript"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="../images/logo.png " class="logo" alt="logo">
+        <script src="../js/script.js"></script>
+        </a>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../../IT20243876/html/index.html">Profile</a></li>
+                <li><a href="../php/plan.php">Plans</a></li>
+                <li><a href="../../IT20225438/src/html/News.html">News</a></li>
+                <li><a href="../../IT20208844/html/index.html">Payments</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="../../IT20225438/src/html/About Us.html">About Us</a></li>
+            </ul>
+        </nav>
+        <!--<div class="search-container">
+            <form action="../php/action.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>-->
+        <div class="log_sign">
+            <a class="cta" href="../../IT20216382/Login/log.php"><button> <i class="fa fa-user"></i> Login</button></a>
+            <a class="cta" href="../../IT20216382/Register/html.html"><button><i class="fa fa-user"></i> Sign Up</button></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="slider">
+            <img name="slide">
+        </div>
+        <div class="img-container">
+            <img src="../images/men.jpg" alt="Family Health" style="width: 100%;">
+            <div class="text">
+                <h1>Health Life Insurance</h1>
+                <h2>Join with the largest Insurance Network.</h2>
+                <p>We are here to give you the best online experience in Insurance
+                    history with the best technologies and staff.Today
+                    join with us for more benefits.</p>
+            </div>
+            <a class="start" href="../../IT20216382/Register/html.html"><button>Get Started &nbsp;&nbsp;<i class="fa fa-terminal"></i></button></a>
+        </div>
+        <div class="panel-container">
+            <ul class="panel-icons">
+                <li>
+                    <div>
+                        <a href="../php/life_insurance.php">
+                            <button class="icons"><i class="fa fa-h-square fa-5x"></i></button>
+                            <h6>Life Insurance</h6>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../php/retired.php">
+                            <button class="icons"><i class="fa fa-wheelchair fa-5x"></i></button>
+                            <h6>For Retired</h6>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../php/family_insurance.php">
+                            <button  class="icons"><i class="fa fa-home fa-5x"></i></button>
+                            <h6>&nbsp;&nbsp;Family Plans</h6>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../php/student.php">
+                            <button class="icons"><i class="fa fa-graduation-cap fa-5x"></i></button>
+                            <h6>&nbsp;&nbsp;Student Plans</h6>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="service-container">
+            <div class="service" ><h1>&nbsp; Free Services</h1></div>
+            <ul class="panel-icons">
+                <li>
+                    <div>
+                        <button class="icons" onclick="open_box(1)"><i class="fa fa-stethoscope fa-5x"></i></button>
+                        <h6>Doc Channeling</h6>
+                    </div>
+                </li>-
+                <div class="display_box_1" style="visibility: hidden;">
+                    <button class="close" onclick="close_box(1)"><i class="fa fa-window-close fa-2x"></i></button>
+                    <div class="doc_channeling">
+                        <h2>Specification</h2>
+                        <table>
+                            <tr><td><button class="method" onclick="channeling_method(1)"><h2>Family Physician</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="channeling_method(2)"><h2>Dentist</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="channeling_method(3)"><h2>Sergeon</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="channeling_method(4)"><h2>Phychiatrist</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="channeling_method(5)"><h2>Cardiologist</h2></button></td></tr>
+                        </table>
+                        <div class="channeling_content" style="visibility: hidden">
+                            <h1>Contact:
+                                <div id= "doc_contact"></div>
+                            </h1>
+                            <h2>
+                            <div id="doc_name"></div>
+                            </h2>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <li>
+                    <div>
+                        <button class="icons" onclick="open_box(2)"><i class="fa fa-ambulance fa-5x"></i></button>
+                        <h6>&nbsp;&nbsp;Ambulance</h6>
+                    </div>
+                </li>
+                <div class="display_box_2" style="visibility: hidden;">
+                    <button class="close" onclick="close_box(2)"><i class="fa fa-window-close fa-2x"></i></button>
+                    <div class="amb_channeling">
+                        <h2 style="text-align: center;font-size: 50px;">
+                            You can get an ambulance free of charge anytime anywhere.
+                            <br>
+                        </h2>
+                        <div class="amb_hot_line">
+                            <h2 class="amb_hot_line_num" style="visibility: hidden;">Hot Line : 1880</h2>
+                            <button class="amb_hot_line_butt" onclick="amb_hot_line()"><h2>Hot Line</h2></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <li>
+                    <div>
+                        <button  class="icons" onclick="open_box(3)"><i class="fa fa-user-md fa-5x"></i></button>
+                        <h6>&nbsp;&nbsp;Doc Assist</h6>
+                    </div>
+                </li>
+                <div class="display_box_3" style="visibility: hidden;">
+                    <button class="close" onclick="close_box(3)"><i class="fa fa-window-close fa-2x"></i></button>
+                    <div class="doc_channeling">
+                        <h2 style="text-align: center; font-size: 50px;">
+                            You can get the support from our doctors in any case.
+                            <br>
+                        </h2>
+                    <div class="doc_hot_line">
+                            <h2 class="doc_hot_line_num" style="visibility:hidden">Hot Line : 9900</h2>
+                            <button class="doc_hot_line_butt" onclick="doc_hot_line()"><h2>Hot Line</h2></button>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div>
+                        <button class="icons" onclick="open_box(4)"><i class="fa fa-heartbeat fa-5x"></i></button>
+                        <h6>&nbsp;&nbsp;Checkups</h6>
+                    </div>
+                </li>
+                <div class="display_box_4" style="visibility: hidden;">
+                    <button class="close" onclick="close_box(4)"><i class="fa fa-window-close fa-2x"></i></button>
+                    <div class="doc_channeling">
+                        <h2> Connected Hospitals for All Checkups</h2>
+                        <table>
+                            <tr><td><button class="method" onclick="checkup_place(1)"><h2>Asiri Hosptal</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="checkup_place(2)"><h2>Nawaloka Hospital</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="checkup_place(3)"><h2>Durdans Hospital</h2></button></td></tr>
+                            <tr><td><button class="method" onclick="checkup_place(4)"><h2>Lanka Hospital</h2></button></td></tr>
+                        </table>
+                        <div class="checkup_content" style="visibility: hidden">
+                            <h1>Contact:
+                                <div id= "che_contact"></div>
+                            </h1>
+                            <h2>
+                            <div id="che_address"></div>
+                            </h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="row">
+        <div class="column">
+            <h3> Quick Links </h3>
+            <ul>
+                <li><a href="">Go to home page</a></li>
+                <li><a href="">Life Insurance </a></li>
+                <li><a href="">Who we are</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3> About Us </h3>
+            <ul>
+                <li> <a href="">Who we are </a></li>
+                <li> <a href="">Our management</a></li>
+                <li> <a href="">Awards and history</a></li>
+            </ul>
+        </div>
+        <div class="column" style="width: 40%">
+            <h3> Find us on </h3>
+            <ul type="none">
+                <li> <a href="https://www.map.google.com"><i class="fa fa-map"></i> &nbsp;&nbsp;Colombo 11</a> </li>
+                <li> <a href="https://www.facebook.com"> <i class="fa fa-facebook"></i> &nbsp;&nbsp; facebook </a> </li>
+                <li> <a href="https://www.google.com"><i class="fa fa-google"></i> &nbsp;&nbsp; Google </a> </li>
+                <li> <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i> &nbsp;&nbsp; Linkedin </li>
+                <li> <a href="https://www.skype.com"><i class="fa fa-skype"></i> &nbsp;&nbsp; Skype </li>
+            </ul>
+        </div>
+        <h4 class="cpr">Health Life Insurance PVT Ltd. &nbsp;&nbsp; All Copyrights are reserved.</h4>
+    </footer>
+
+</body>
+</html>
